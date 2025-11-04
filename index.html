@@ -100,13 +100,6 @@
       <h3>Data</h3>
       <p>Designing and managing databases, writing efficient queries, and ensuring data integrity for web applications.</p>
     </div>
-
-
-
-
-
-
-
   </div>
 </section>
 
@@ -269,16 +262,14 @@
     });
   });
 
-  // ===== MOBILE MENU TOGGLE =====
+
   const hamburger = document.getElementById("hamburger");
   const navbar = document.querySelector(".navbar");
 
-  // Toggle menu on hamburger click
   hamburger.addEventListener("click", () => {
     navbar.classList.toggle("show");
   });
 
-  // Close mobile menu when a link is clicked
   navLinks.forEach(link => {
     link.addEventListener("click", () => {
       if (navbar.classList.contains("show")) {
